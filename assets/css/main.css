@@ -61,4 +61,55 @@
 }
 
 /*---------------------- fotos ------------------------------*/
+.pictures{
+	width: 100%;
+}
+
+.subcontenedor.pict{
+	display: flex;
+	padding: 20px 5px;
+	background-color: white;
+}
+
+.col-1-4.photo{
+	padding: 0 10px;
+}
+
+.cont-pict-foto{
+	background: #037f99;
+	height: 100%;
+}
+
+.titulo{
+	margin: 3px 0 7px 0;
+	font-weight: bold;
+	color: #f27673;
+}
+
+.text{
+	padding: 8% 3%;
+	color: white;
+}
+
+
+/*---------------------------- videos, fotos y search ---------------------*/
+.subcontenedor.mix{
+	display: flex;
+}
+
+
+/*prefooter y footer*/
+.foto-head{
+	background-image:width: 100px url(../../img/bunny-head.png);
+	background-repeat: repeat;
+}
+
+.preFooter{
+	height: 500px;
+	width: 100%;
+	
+	background-position: center;
+	background-repeat: repeat;
+	display: flex;
+}
 

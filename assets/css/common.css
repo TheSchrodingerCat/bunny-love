@@ -10,6 +10,7 @@ body{
 	margin: 0;
 	text-align: center;
 	font-family: 'Prompt', sans-serif;
+	background: #ecf7fb;
 }
 
 .text-uppercase {
@@ -21,21 +22,29 @@ body{
 }
 
 .subcontenedor{
-	margin-left: 10%;
-	margin-right: 10%;
-	width: 80%;
+	margin-left: 13.5%;
+	margin-right: 14.5%;
+	width: 72%;
 }
 
 .row{
 	width: 100%;
 }
 
-
+/* responsive */
+.img-responsive{
+	max-width: 100%;
+	width: 100%;
+}
 
 /*--------------------- grilla ----------------------*/
+/*[class*='col-']{
+	margin: 0 12px;
+}*/
 
 .col-1-1 {
 	width: 100%;
+	margin: 0;
 }
 .col-2-3, .col-8-12 {
 	width: 66.66%;
