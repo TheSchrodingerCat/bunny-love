@@ -7,6 +7,7 @@
 
 .nav-bar{
 	background: #037f99;
+	color: white;
 	height: 80px;
 	display: flex;
 	align-items: center;
@@ -36,5 +37,28 @@
 	background-repeat: no-repeat;
 	display: flex;
 	align-items: flex-end;
+	justify-content: center;
 }
+
+.subcontenedor.head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contTrans{
+	width: 70%;
+	height: 250px;
+	background: #037f99;
+	opacity: 0.8;
+}
+
+.textoHeader{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*---------------------- fotos ------------------------------*/
 
